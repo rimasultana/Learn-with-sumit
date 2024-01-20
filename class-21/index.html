@@ -10,6 +10,16 @@
     <h2>Rima Sultana</h2>
 
 
-    <script src="script.js"></script>
+<p id="demo"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.push("Lemon");
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
 </body>
 </html>
