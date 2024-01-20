@@ -22,7 +22,12 @@
 // myArray [2] = mycars;
 
 const fruits = ["banana", "Apple", "orange","painaple"]
-for ( i = 0; i <fruits.length;i++);{
-    console.log(i);
-    console.log(fruits[i]);
+// for ( i = 0; i <fruits.length;i++);{
+//     console.log(i);
+//     console.log(fruits[i]);
+// }
+function myFuntion (value){
+    console.log(value);
 }
+fruits.forEach(myFuntion);
+fruits.forEach("Finished");
