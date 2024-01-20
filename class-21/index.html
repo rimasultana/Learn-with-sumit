@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js</title>
-</head>
+<html>
 <body>
-
-    <h2>Rima Sultana</h2>
-
+<h1>JavaScript Arrays</h1>
 
 <p id="demo"></p>
 
 <script>
-const fruits = ["Banana", "Orange", "Apple"];
-document.getElementById("demo").innerHTML = fruits;
-
-function myFunction() {
-  fruits.push("Lemon");
-  document.getElementById("demo").innerHTML = fruits;
-}
+const person = [];
+person[0] = "John";
+person[1] = "Doe";
+person[2] = 46; 
+document.getElementById("demo").innerHTML =
+person[0] + " " + person.length;
 </script>
+
 </body>
 </html>
