@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>JavaScript Variables</h1>
+  <body>
+    <h1>JavaScript Variables</h1>
 
-<p>In this example, x, y, and z are variables.</p>
+    <p>In this example, x, y, and z are variables.</p>
 
-<p id="demo"></p>
+    <p id="demo"></p>
 
-<script>
-// const x = 5;
-// const y = 6;
-// const z = x + y;
-// document.getElementById("demo").innerHTML =
-// "The value of z is: " + z;
+    <script>
+        // create array
+      const cars = ["Saab", "Volvo","BMW"];
+      // change array
 
-const pi = 3.14;
-const person = "Jhon dho";
-const answer = "Yes, I am !";
-document.getElementById("demo").innerHTML =
-pi  + "<br>"+ person +"<br>" + answer + "<br>";
+      cars[0] = "Toytota";
 
-</script>
+      cars.push("AUDI");
 
-</body>
+      // Display the Array
+
+      document.getElementById("demo").innerHTML =
+       cars;
+
+      // create array
+
+      let cars = ["Alu", "potol", "labu","kocpi"];
+      //  change array
+
+      cars[0] = "bagun";
+      cars[2] = "holud";
+
+      cars.push{"Vagetable"};
+
+      //  display the array
+      document.getElementById("demo").innerHTML =
+       cars;
+    </script>
+  </body>
 </html>
