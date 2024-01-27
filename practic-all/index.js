@@ -1,2 +1,2 @@
-const s = "Rimasultana";
-console.log(s.length);
+let str = "Apple, Banana, Kiwi ";
+console.log(str.slice(7,13));
