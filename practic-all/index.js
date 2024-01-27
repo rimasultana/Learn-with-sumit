@@ -1,3 +1,3 @@
-const s = "Bangladesh";
+
+let r = "Rima-sultana";
 console.log(s.length);
-let r = 
