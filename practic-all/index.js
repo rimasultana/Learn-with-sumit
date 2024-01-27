@@ -1,3 +1,2 @@
-
-let r = "Rima-sultana";
+const s = "Rimasultana";
 console.log(s.length);
