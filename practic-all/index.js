@@ -1,4 +1,5 @@
-let x  = 10;
-let y = "apple";
-let z = ( x/y);
-console.log(z);
+let myNumber = 2;
+while(myNumber) {
+    myNumber * myNumber ;
+}
+console.log(myNumber);
