@@ -1,5 +1,4 @@
-let myNumber = 2;
-while(myNumber) {
-    myNumber * myNumber ;
-}
-console.log(myNumber);
+let x = 2/0;
+let y = 2/0;
+let z = x+y;
+console.log(z);
