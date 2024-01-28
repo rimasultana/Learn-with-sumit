@@ -1,3 +1,3 @@
-let text = "Hello World";
-text.charCodeAt(0);
-console.log(text.charCodeAt(0));
+const name = "Rima";
+let = name.at(2);
+console.log(name.at(2));
