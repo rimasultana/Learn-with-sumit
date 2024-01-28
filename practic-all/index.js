@@ -1,3 +1,3 @@
-let text = "Rima Sultana";
-text.charAt(5);
-console.log(text.charAt(5));
+let text = "Hello World";
+text.charCodeAt(0);
+console.log(text.charCodeAt(0));
