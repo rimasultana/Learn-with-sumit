@@ -1,3 +1,5 @@
-let text = "Apple, Banana, KIWI";
-text.slice(16,20);
-console.log(text.slice(16,20));
+// let text = "Please locate where 'locate' occurs!";
+// let index = text.indexOf("locate");
+let text = "Please locate where 'locate' occurs";
+let index = text.indexOf("locate");
+console.log(text.indexOf("locate"));
