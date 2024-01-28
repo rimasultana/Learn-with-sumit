@@ -6,5 +6,7 @@
 // text.match("ain");
 // console.log(text.match("ain"));
 let str = `Banhladesh`;
-let sentence = `I love ${country} is big country`;
-console.log("sentence");
+let a = 17;
+let b = 2;
+let sentence = `I love ${country} is big ${a+b} country`;
+console.log(sentence);
