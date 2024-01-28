@@ -1,3 +1,3 @@
-const name = "Rima";
-let = name.at(2);
-console.log(name.at(2));
+let text = "Apple, Banana, KIWI";
+text.slice(16,20);
+console.log(text.slice(16,20));
