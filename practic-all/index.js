@@ -1,3 +1,3 @@
-let x = 9.689;
-console.log(x.toExponential(2));
-console.log(x.toExponential(3));
+let x = 9.647;
+x.toFixed(2);
+console.log(x.toFixed(2));
