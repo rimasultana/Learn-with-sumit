@@ -1,2 +1,2 @@
- number ( new Data(12/12/2003));
- console.log(new data(12/12/2003));
+Number(new Date("1970-01-02"));
+console.log(new Data("1970-01-02"));
