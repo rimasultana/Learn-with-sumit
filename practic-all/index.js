@@ -1,3 +1,2 @@
-let x = 9.647;
-x.toFixed(2);
-console.log(x.toFixed(2));
+ number ( new Data(12/12/2003));
+ console.log(new data(12/12/2003));
