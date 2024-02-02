@@ -1,1 +1,3 @@
-<h1>Rima</h1>
+const colors =['red','blue','green','yellow','orabge'];
+colors.reverse();
+console.log(colors.reverse());
