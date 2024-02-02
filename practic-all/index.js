@@ -1,3 +1,8 @@
-const statement = 'I am a hard working person';
-const reversedSentence = statement.split(' ').reverse().join(' ');
-console.log(reversedSentence);
+var names = ['Tom', 'Tim', 'Tin', 'Tik'];
+var concatenatedString = '';
+
+for (const name of names) {
+    concatenatedString += name;
+}
+
+console.log(concatenatedString);
