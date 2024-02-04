@@ -1,13 +1,10 @@
 function isLeapYear(year){
-    if((year % 400 === 0) || ((year % 4 === 0) &&
-    (year % 100 !==))) {
-        console.log(`${year} is a leap year!`);
-    }
-    eise{
-        console.log(`${year} is not leap year!`);
-    }
+    if((year % 400 === 0) || ((year % 4 ===0) 
+    &&(year % 100 !== 0))){
+console.log(`${year} is  a leap year!`);
 }
-
-
-
+else{
+    console.log(`${year} is not a leap year`)
+}
+}
 isLeapYear(2028);
