@@ -1,5 +1,13 @@
-const roll_number = [2,1,3,5,6,7,4,8];
-console.log(roll_number.sort(function(a,b)
-{
-    return b - a;
-}))
+function isLeapYear(year){
+    if((year % 400 === 0) || ((year % 4 === 0) &&
+    (year % 100 !==))) {
+        console.log(`${year} is a leap year!`);
+    }
+    eise{
+        console.log(`${year} is not leap year!`);
+    }
+}
+
+
+
+isLeapYear(2028);
